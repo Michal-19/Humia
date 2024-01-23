@@ -1,0 +1,27 @@
+.WeAreWorkingOnThisPageSection {
+    position: relative;
+    height: 46.5vh;
+}
+
+.WeAreWorkingOnThisPageText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #07129b;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 968px) {
+    .WeAreWorkingOnThisPageSection {
+        height: 39.5vh;
+    }
+}
+
+@media screen and (max-height: 768px) {
+    .WeAreWorkingOnThisPageSection {
+    }
+}
